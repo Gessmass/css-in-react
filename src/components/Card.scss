@@ -1,0 +1,44 @@
+
+
+$setBackgroundColor: rgb(232, 232, 232);
+$setBorderRadius: 12px;
+
+.divCard {
+    border: 1px solid black;
+    width: 15vw;
+    height: 40vh;
+    background-color: $setBackgroundColor;
+    
+    border-radius: $setBorderRadius;
+    display: flex;
+    flex-direction: column;
+}
+
+.divGlobal {
+    display:flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin-top: 10vh;
+}
+
+.divImage {
+        img {
+        width: 100%;
+        border-radius: $setBorderRadius;
+        margin: 5px;
+        margin-right: 30px;
+    }
+}
+
+.divImage {
+    height: 50%;
+    width: 100%;
+    display: block;
+    position: relative;
+    
+}
+
+.divText {
+    height: 50%;
+
+}
